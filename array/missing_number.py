@@ -12,8 +12,9 @@ def find_missing_number(nums):
     n = len(nums)   # Since one number is missing
     expected_sum = n * (n + 1) // 2  # Sum of 1 to n
     actual_sum = sum(nums)
+    print(f"length: {n}, Expected sum: {expected_sum}, Actual sum: {actual_sum}")
     return expected_sum - actual_sum
 
 
-nums = [0, 1, 2, 4, 5, 6]  # Missing 3
+nums = [0, 6, 4, 3, 2, 1]  # Missing 3
 print("Missing number is:", find_missing_number(nums))
