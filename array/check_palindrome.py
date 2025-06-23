@@ -9,5 +9,5 @@ def check_palindrome(s: str) -> bool:
     # Compare the string with its reverse
     return s == s[::-1]
 
-print("Palindrome Check for - racecar:", check_palindrome("racecar"))  # True
+print("Palindrome Check for - racecar:", check_palindrome("Racecar"))  # True
 print("Palindrome Check for - hello:", check_palindrome("hello"))
